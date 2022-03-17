@@ -1,476 +1,399 @@
 <!doctype html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Damian Hills - Web tools for Web3D/XR - GDUT March 2022 </title>
-    <link rel="stylesheet" href="dist/reset.css">
-    <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
-    <!-- Theme used for syntax highlighted code -->
-    <script>
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName('head')[0].appendChild(link);
-    </script>
-    <script type="text/javascript">
-        window.addEventListener("load", function() {
-            revealDiv = document.querySelector("body div.reveal")
-            footer = document.getElementById("perma-footer");
-            revealDiv.appendChild(footer);
-        });
-    </script>
-</head>
-
-<body>
-    <div class="reveal">
-        <div class="slides">
-
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>Damian Hills - Web tools for Web3D/XR - GDUT March 2022 </title>
+      <link rel="stylesheet" href="dist/reset.css">
+      <link rel="stylesheet" href="dist/reveal.css">
+      <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+      <!-- Theme used for syntax highlighted code -->
+      <script>
+         var link = document.createElement('link');
+         link.rel = 'stylesheet';
+         link.type = 'text/css';
+         link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+         document.getElementsByTagName('head')[0].appendChild(link);
+      </script>
+      <script type="text/javascript">
+         window.addEventListener("load", function() {
+             revealDiv = document.querySelector("body div.reveal")
+             footer = document.getElementById("perma-footer");
+             revealDiv.appendChild(footer);
+         });
+      </script>
+   </head>
+   <body>
+      <div class="reveal">
+         <div class="slides">
             <!-- INIT-->
             <div id="perma-footer" class="footer">
-                <img height="128" width="128" src="asset/presqrcode.png"></img>
-                <span class="element">Design Tools For Web3D/XR</span>
-                <span class="element">
+               <img height="128" width="128" src="asset/presqrcode.png"></img>
+               <span class="element">Design Tools For Web3D/XR</span>
+               <span class="element">
                <a id="url" href="https://damskii.github.io/GDUT-2022-WebToolsForXR" >https://damskii.github.io/GDUT-2022-WebToolsForXR</a>
                </span>
-                <span class="element">
+               <span class="element">
                <a id="seturl" href="" target="_blank">begin</a>
                </span>
             </div>
-
-
             <!--work-------->
-
-  
             <!--work-------->
-
             <!--INTRODUCTION  -->
             <section data-background-iframe="https://paveldogreat.github.io/WebGL-Fluid-Simulation" data-background-interactive>
-                <div>
-                    <h1>Design Tools For Web3D/XR</h1>
-                    <p>Dr. Damian Hills </p>
-                </div>
-                <p style="text-align: centre; color:white; "> </p>
-                <p style="text-align: centre; color:white; "> </p>
-                <p style="text-align: centre; color:white; "> </p>
-                <p style="text-align: centre; color:white; ">https://damskii.github.io/GDUT-2022-WebToolsForXR</p>
-
+               <div>
+                  <h1>Design Tools For Web3D/XR</h1>
+                  <p>Dr. Damian Hills </p>
+               </div>
+               <p style="text-align: centre; color:white; "> </p>
+               <p style="text-align: centre; color:white; "> </p>
+               <p style="text-align: centre; color:white; "> </p>
+               <p style="text-align: centre; color:white; ">https://damskii.github.io/GDUT-2022-WebToolsForXR</p>
             </section>
             <section data-background-iframe="https://paveldogreat.github.io/WebGL-Fluid-Simulation" data-background-interactive>
-                <div>
-                    <h1>Design Tools For Web3D/XR</h1>
-                    <p>Dr. Damian Hills </p>
-                </div>
+               <div>
+                  <h1>Design Tools For Web3D/XR</h1>
+                  <p>Dr. Damian Hills </p>
+               </div>
             </section>
             <!--overview-------->
             <section data-background-iframe="https://threejs.org/examples/webgl_gpgpu_birds_gltf.html" data-background-interactive>
-                <h3 style="color:black; ">
-                    Presentation Overview
-                </h3>
-                <p style="text-align: left; color:black; "><span>&#8226;</span> What is Web3D and WebXR</p>
-                <p style="text-align: left; color:black; "><span>&#8226;</span> A showcase of Web3D and XR</p>
-                <p style="text-align: left; color:black; "><span>&#8226;</span> Tools for Web3D/XR you can use online to create your own experiences </p>
-                <p style="text-align: left; color:black; "><span>&#8226;</span> Collaborative work with GDUT - Guangcai Project </p>
-
+               <h3 style="color:black; ">
+                  Presentation Overview
+               </h3>
+               <p style="text-align: left; color:black; "><span>&#8226;</span> What is Web3D and WebXR</p>
+               <p style="text-align: left; color:black; "><span>&#8226;</span> A showcase of Web3D and XR</p>
+               <p style="text-align: left; color:black; "><span>&#8226;</span> Tools for Web3D/XR you can use online to create your own experiences </p>
+               <p style="text-align: left; color:black; "><span>&#8226;</span> Collaborative work with GDUT - Guangcai Project </p>
             </section>
             <!--what-------->
             <section data-background-iframe="https://threejs.org/examples/webgl_loader_gltf_variants.html" data-background-interactive>
-                <h3 style="color:white; ">
-                    What is Web3D?
-                </h3>
-                <p style="text-align: left; color:white; "><span>&#8226;</span> term used to describe interactive 3D content included in an HTML page</p>
-                <p style="text-align: left; color:white; "><span>&#8226;</span> viewable by a common Web browser via a special 3D viewer </p>
-                <p style="text-align: left; color:white; "><span>&#8226;</span> open formats for 3D viewing transmission, such as glTF</p>
-
+               <h3 style="color:white; ">
+                  What is Web3D?
+               </h3>
+               <p style="text-align: left; color:white; "><span>&#8226;</span> term used to describe interactive 3D content included in an HTML page</p>
+               <p style="text-align: left; color:white; "><span>&#8226;</span> viewable by a common Web browser via a special 3D viewer </p>
+               <p style="text-align: left; color:white; "><span>&#8226;</span> open formats for 3D viewing transmission, such as glTF</p>
             </section>
             <!--what-------->
             <section data-background-iframe="https://threejs.org/examples/webxr_vr_rollercoaster.html" data-background-interactive>
-                <h3 style="color:black; ">
-                    What is the WebXR standard?
-                </h3>
-                <p style="text-align: left; color:black; "><span>&#8226;</span> is a group of standards which are used together to support rendering 3D scenes to hardware designed for presenting VR/AR</p>
-                <p style="text-align: left; color:black; "><span>&#8226;</span> It builds upon a set of browser based technologies that include the WebGL standard that supports 3D rendering in browser environments. </p>
-                <p style="text-align: left; color:black; "><span>&#8226;</span> supports a range of mixed reality devices with an enabled browser, such as the Oculus browser for the Quest. </p>
-
+               <h3 style="color:black; ">
+                  What is the WebXR standard?
+               </h3>
+               <p style="text-align: left; color:black; "><span>&#8226;</span> is a group of standards which are used together to support rendering 3D scenes to hardware designed for presenting VR/AR</p>
+               <p style="text-align: left; color:black; "><span>&#8226;</span> It builds upon a set of browser based technologies that include the WebGL standard that supports 3D rendering in browser environments. </p>
+               <p style="text-align: left; color:black; "><span>&#8226;</span> supports a range of mixed reality devices with an enabled browser, such as the Oculus browser for the Quest. </p>
             </section>
-
             <!-- why-------->
             <section data-background-iframe="https://threejs.org/examples/webgl_materials_envmaps.html" data-background-interactive>
-                <h3 style="">
-                    Why VR/AR on the web?
-                </h3>
-                <p style="text-align: left;  "><span>&#8226;</span> No large IDE required for development, just a browser and text editor</p>
-                <p style="text-align: left; "><span>&#8226;</span> Use tools web developers know - javascript, HTML</p>
-                <p style="text-align: left; "><span>&#8226;</span> Desktop/Mobile Progressive Web Apps (PWA)</p>
-                <p style="text-align: left; "><span>&#8226;</span> Cross platform</p>
+               <h3 style="">
+                  Why VR/AR on the web?
+               </h3>
+               <p style="text-align: left;  "><span>&#8226;</span> No large IDE required for development, just a browser and text editor</p>
+               <p style="text-align: left; "><span>&#8226;</span> Use tools web developers know - javascript, HTML</p>
+               <p style="text-align: left; "><span>&#8226;</span> Desktop/Mobile Progressive Web Apps (PWA)</p>
+               <p style="text-align: left; "><span>&#8226;</span> Cross platform</p>
             </section>
-
             <!-- progressive -->
             <section>
-                <h3 style="">
-                    Why WebXR tools for online delivery?
-                </h3>
-                <p style="text-align: left;"><a href="https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement" target="_blank">Progressive Enhancement</a> is a design philosophy that centers around providing a baseline of essential content and functionality to as many users as possible, while at the same time going further and delivering the best possible experience only to users of the most modern browsers that can run all the required code. </p>
-                <img src="asset/responsive.png"></img>
+               <h3 style="">
+                  Why WebXR tools for online delivery?
+               </h3>
+               <p style="text-align: left;"><a href="https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement" target="_blank">Progressive Enhancement</a> is a design philosophy that centers around providing a baseline of essential content and functionality to as many users as possible, while at the same time going further and delivering the best possible experience only to users of the most modern browsers that can run all the required code. </p>
+               <img src="asset/responsive.png"></img>
             </section>
-
             <!-- progressive -->
             <section data-background-iframe="https://threejs.org/examples/webxr_vr_panorama_depth.html" data-background-interactive>
-                <h3 style="color:white; ">
-                    Progressive Enhancement allows for both Web3D and WebXR
-                </h3>
+               <h3 style="color:white; ">
+                  Progressive Enhancement allows for both Web3D and WebXR
+               </h3>
             </section>
-
-                      <!--experiences-------->
-                      <section data-background-iframe="https://rdfr01.xl.digital/" data-background-interactive>
-                        <h3 style="color:white; ">
-                            Some examples of Web3D/XR
-                        </h3>
-                        <p style="text-align: left; color:white; "><span>&#8226;</span> Visualisation & Art</p>
-                        <p style="text-align: left; color:white; "><span>&#8226;</span> Games</p>
-                        <p style="text-align: left; color:white; "><span>&#8226;</span> Online commerce, eg shopping </p>
-                        <p style="text-align: left; color:white; "><span>&#8226;</span> Metaverse Futures (Avatars/VTubing) </p>
-                        </p>
-                    </section>
-        
-                 
-
+            <!--experiences-------->
+            <section data-background-iframe="https://rdfr01.xl.digital/" data-background-interactive>
+               <h3 style="color:white; ">
+                  Some examples of Web3D/XR
+               </h3>
+               <p style="text-align: left; color:white; "><span>&#8226;</span> Visualisation & Art</p>
+               <p style="text-align: left; color:white; "><span>&#8226;</span> Games</p>
+               <p style="text-align: left; color:white; "><span>&#8226;</span> Online commerce, eg shopping </p>
+               <p style="text-align: left; color:white; "><span>&#8226;</span> Metaverse Futures (Avatars/VTubing) </p>
+               </p>
+            </section>
             <section data-background-iframe=" https://spite.github.io/genuary-2022/13/" data-background-interactive>
                <div>
-                   <h1></h1>
-                   <p> </p>
+                  <h1></h1>
+                  <p> </p>
                </div>
-           </section>
-           
-           <section data-background-iframe="https://therace.montblanclegend.com/" data-background-interactive>
-            <div>
-                <h1></h1>
-                <p> </p>
-            </div>
-        </section>
-        
-           <section data-background-iframe="https://moonrider.xyz/" data-background-interactive>
-            <div>
-                <h1></h1>
-                <p> </p>
-            </div>
-        </section>
-
-
-
+            </section>
+            <section data-background-iframe="https://therace.montblanclegend.com/" data-background-interactive>
+               <div>
+                  <h1></h1>
+                  <p> </p>
+               </div>
+            </section>
+            <section data-background-iframe="https://moonrider.xyz/" data-background-interactive>
+               <div>
+                  <h1></h1>
+                  <p> </p>
+               </div>
+            </section>
             <section data-background-iframe="https://wayfinder.nfb.ca/" data-background-interactive>
                <div>
-                   <h1></h1>
-                   <p> </p>
+                  <h1></h1>
+                  <p> </p>
                </div>
-           </section>
-
+            </section>
             <section data-background-iframe="https://neotix.com.br/vitrine-virtual/" data-background-interactive>
                <div>
-                   <h1></h1>
-                   <p> </p>
+                  <h1></h1>
+                  <p> </p>
                </div>
-           </section>
-
+            </section>
             <section data-background-iframe="https://www.lamborghini.com/en-en/3d" data-background-interactive>
                <div>
-                   <h1></h1>
-                   <p> </p>
+                  <h1></h1>
+                  <p> </p>
                </div>
-           </section>
-
-           
-           <section data-background-iframe="https://sougen.co/" data-background-interactive>
-                
-         </section>
-
-            <section data-background-iframe="https://3d.kalidoface.com/" data-background-interactive>
-                
             </section>
-
-
-
-
-
+            <section data-background-iframe="https://sougen.co/" data-background-interactive>
+            </section>
+            <section data-background-iframe="https://3d.kalidoface.com/" data-background-interactive>
+            </section>
             <!-- TOOLS-->
-
             <!--------------------------------------------------------------------->
             <!--why-------->
             <section data-background-iframe="https://rdfr01.xl.digital/" data-background-interactive>
-                <h1 style="">
-                    Tools for Web3D and WebXR
-                </h1>
+               <h1 style="">
+                  Tools for Web3D and WebXR
+               </h1>
             </section>
             <!--why-------->
-
             <section data-background-iframe="https://threejs.org/examples/webgl_shaders_ocean.html" data-background-interactive>
-                <h3 style="">
-                    Why web tools for 3D/XR
-                </h3>
-                <p style="text-align: left;  "><span>&#8226;</span> Designers and Developers make websites that are easy to maintain
-                </p>
-                <p style="text-align: left;  "><span>&#8226;</span> Interoperability of online tools allow for interesting combinations of techniques
-                </p>
-                <p style="text-align: left;  "><span>&#8226;</span> Content you create is useful is many web contexts
-                </p>
+               <h3 style="">
+                  Why web tools for 3D/XR
+               </h3>
+               <p style="text-align: left;  "><span>&#8226;</span> Designers and Developers make websites that are easy to maintain
+               </p>
+               <p style="text-align: left;  "><span>&#8226;</span> Interoperability of online tools allow for interesting combinations of techniques
+               </p>
+               <p style="text-align: left;  "><span>&#8226;</span> Content you create is useful is many web contexts
+               </p>
             </section>
             <!--what re the tools-------->
             <section data-background-iframe="https://threejs.org/examples/webgl_panorama_equirectangular.html" data-background-interactive>
-                <h3 style="">
-                    Overview of Web Tools
-                </h3>
-                <p style="text-align: left;  "><span>&#8226;</span> aframe - web framework for building XR experiences</p>
-                <p style="text-align: left; "><span>&#8226;</span> glitch - browser based project management </p>
-                <p style="text-align: left; "><span>&#8226;</span> GLTF - a standard format for 3D scenes and models</p>
-                <p style="text-align: left; "><span>&#8226;</span> Mozilla Hubs - open standards for social VR with privacy</p>
-                <p style="text-align: left; "><span>&#8226;</span> Other Web tools for 3D</p>
+               <h3 style="">
+                  Overview of Web Tools
+               </h3>
+               <p style="text-align: left;  "><span>&#8226;</span> aframe - web framework for building XR experiences</p>
+               <p style="text-align: left; "><span>&#8226;</span> glitch - browser based project management </p>
+               <p style="text-align: left; "><span>&#8226;</span> GLTF - a standard format for 3D scenes and models</p>
+               <p style="text-align: left; "><span>&#8226;</span> Mozilla Hubs - open standards for social VR with privacy</p>
+               <p style="text-align: left; "><span>&#8226;</span> Other Web tools for 3D</p>
             </section>
-
-
             <!-- glitch intro---------------------------------------------->
             <section data-background-iframe="https://aframe.io/" data-background-interactive>
             </section>
             <section>
-                <h3>Glitch.com - AFRAME</h3>
-                <p style="text-align: left; "><span>&#8226;</span> <a href="https://glitch.com/edit/#!/remix/aframe" target="_blank">Aframe on Glitch</a></p>
+               <h3>Glitch.com - AFRAME</h3>
+               <p style="text-align: left; "><span>&#8226;</span> <a href="https://glitch.com/edit/#!/remix/aframe" target="_blank">Aframe on Glitch</a></p>
             </section>
             <section>
-                <h3>Glitch.com - "Project Management"</h3>
-                <img height="50%" width="50%s" src="asset/glitch.png"></img>
-                <p style="text-align: left; "><span>&#8226;</span> <a href="https://glitch.com/about" target="_blank">Glitch.com</a></p>
-                <p style="text-align: left; "><span>&#8226;</span> <a href="https://glitch.com/~aframe" target="_blank">Aframe on Glitch</a></p>
+               <h3>Glitch.com - "Project Management"</h3>
+               <img height="50%" width="50%s" src="asset/glitch.png"></img>
+               <p style="text-align: left; "><span>&#8226;</span> <a href="https://glitch.com/about" target="_blank">Glitch.com</a></p>
+               <p style="text-align: left; "><span>&#8226;</span> <a href="https://glitch.com/~aframe" target="_blank">Aframe on Glitch</a></p>
             </section>
             <section>
-                <h3>Glitch.com - "Remix a project"</h3>
-                <img src="asset/remix.png"></img>
+               <h3>Glitch.com - "Remix a project"</h3>
+               <img src="asset/remix.png"></img>
             </section>
             <section>
-                <h3>Glitch.com - "Show next to code"</h3>
-                <img src="asset/glitchnextcode.png"></img>
+               <h3>Glitch.com - "Show next to code"</h3>
+               <img src="asset/glitchnextcode.png"></img>
             </section>
             <section>
-                <h3>Glitch.com - "Demo Project"</h3>
-                <img height="50%" width="50%s" src="asset/glitch.png"></img>
-                <p style="text-align: left; "> Demo : <a href="https://damskii-aframe-xr-gltf.glitch.me/" target="_blank">https://damskii-aframe-xr-gltf.glitch.me/</a></p>
-                <p style="text-align: left; "> Demo (project): <a href="https://glitch.com/~damskii-aframe-xr-gltf" target="_blank">https://glitch.com/~damskii-aframe-xr-gltf</a></p>
-                <p style="text-align: left; ">On IOS? <a href="https://apps.apple.com/us/app/webxr-viewer/id1295998056" target="_blank">Get viewer app for WebXR</a></p>
+               <h3>Glitch.com - "Demo Project"</h3>
+               <img height="50%" width="50%s" src="asset/glitch.png"></img>
+               <p style="text-align: left; "> Demo : <a href="https://damskii-aframe-xr-gltf.glitch.me/" target="_blank">https://damskii-aframe-xr-gltf.glitch.me/</a></p>
+               <p style="text-align: left; "> Demo (project): <a href="https://glitch.com/~damskii-aframe-xr-gltf" target="_blank">https://glitch.com/~damskii-aframe-xr-gltf</a></p>
+               <p style="text-align: left; ">On IOS? <a href="https://apps.apple.com/us/app/webxr-viewer/id1295998056" target="_blank">Get viewer app for WebXR</a></p>
             </section>
-
             <section data-background-iframe="https://glitch.com/edit/#!/kalidokit" data-background-interactive>
-                
             </section>
-
             <!-------------------------------------------------------------------------->
             <!-- gltf intro buster -->
             <section data-background-iframe="https://threejs.org/examples/webgl_loader_gltf.html" data-background-interactive>
-
-                <img height="128" width="256" src="asset/gltf.png"></img>
-
-                <p style="text-align: left;  ">glTF™ (GL Transmission Format) is a royalty-free specification for the efficient transmission and loading of 3D scenes and models by applications. </p>
-                <p style="text-align: left;  ">glTF minimizes both the size of 3D assets, and the runtime processing needed to unpack and use those assets. </p>
-
+               <img height="128" width="256" src="asset/gltf.png"></img>
+               <p style="text-align: left;  ">glTF™ (GL Transmission Format) is a royalty-free specification for the efficient transmission and loading of 3D scenes and models by applications. </p>
+               <p style="text-align: left;  ">glTF minimizes both the size of 3D assets, and the runtime processing needed to unpack and use those assets. </p>
             </section>
-
             <section>
-                <img src="asset/2020-core-gltf-2-0-asset-structure.jpg"></img>
-                <a href="https://www.khronos.org/gltf/" target="_blank">gltf</a>
-                <p style="text-align: left;  "> glTF minimizes both the size of 3D assets, and the runtime processing needed to unpack and use those assets.</p>
+               <img src="asset/2020-core-gltf-2-0-asset-structure.jpg"></img>
+               <a href="https://www.khronos.org/gltf/" target="_blank">gltf</a>
+               <p style="text-align: left;  "> glTF minimizes both the size of 3D assets, and the runtime processing needed to unpack and use those assets.</p>
             </section>
-
             <section>
-                <img src="asset/2017-collada-gltf-positioning-sm_3_3.webp"></img>
-                <a href="https://www.khronos.org/gltf/" target="_blank">gltf</a>
-                <p style="text-align: left;  "> glTF defines an extensible, common publishing format for 3D content tools and services that streamlines authoring workflows and enables interoperable use of content across the industry.</p>
+               <img src="asset/2017-collada-gltf-positioning-sm_3_3.webp"></img>
+               <a href="https://www.khronos.org/gltf/" target="_blank">gltf</a>
+               <p style="text-align: left;  "> glTF defines an extensible, common publishing format for 3D content tools and services that streamlines authoring workflows and enables interoperable use of content across the industry.</p>
             </section>
-
             <!-- hubs -->
             <section>
-                <h3>Mozilla HUBS</h3>
-                <img height="50%" width="50%s" src="asset/hubs-scenes3.jpeg"></img>
-                <p style="text-align: left; "><span>&#8226;</span> <a href="https://hubs.mozilla.com/" target="_blank">Mozilla Hubs</a></p>
+               <h3>Mozilla HUBS</h3>
+               <img height="50%" width="50%s" src="asset/hubs-scenes3.jpeg"></img>
+               <p style="text-align: left; "><span>&#8226;</span> <a href="https://hubs.mozilla.com/" target="_blank">Mozilla Hubs</a></p>
             </section>
-
             <section>
-                <h3>Mozilla Spoke For HUBS</h3>
-                <img height="50%" width="50%s" src="asset/spoke.jpg"></img>
-                <p style="text-align: left; "><span>&#8226;</span> <a href="https://hubs.mozilla.com/spoke/" target="_blank">Spoke (HUBS)</a></p>
+               <h3>Mozilla Spoke For HUBS</h3>
+               <img height="50%" width="50%s" src="asset/spoke.jpg"></img>
+               <p style="text-align: left; "><span>&#8226;</span> <a href="https://hubs.mozilla.com/spoke/" target="_blank">Spoke (HUBS)</a></p>
             </section>
-
-
-
             <!-- other web tools -->
             <section data-background-iframe="https://app.vectary.com/" data-background-interactive>
-                <div>
-
-                    <p> </p>
-                </div>
+               <div>
+                  <p> </p>
+               </div>
             </section>
-
             <section data-background-iframe="https://vartiste.xyz/" data-background-interactive>
-                <div>
-                    <h1></h1>
-                    <p> </p>
-                </div>
+               <div>
+                  <h1></h1>
+                  <p> </p>
+               </div>
             </section>
-
             <section data-background-iframe="https://shaderpark.com/" data-background-interactive>
-                <div>
-                    <h1></h1>
-                    <p> </p>
-                </div>
+               <div>
+                  <h1></h1>
+                  <p> </p>
+               </div>
             </section>
-
             <section data-background-iframe="https://poly.cam/" data-background-interactive>
-                <div>
-                    <h1></h1>
-                    <p> </p>
-                </div>
+               <div>
+                  <h1></h1>
+                  <p> </p>
+               </div>
             </section>
-
-
             <section data-background-iframe="https://plask.ai" data-background-interactive>
-                <div>
-                    <h1></h1>
-                    <p> </p>
-                </div>
+               <div>
+                  <h1></h1>
+                  <p> </p>
+               </div>
             </section>
-
-
             <!-- GCAI-->
-
-
             <section>
-                <img height="256" width="256" src="asset/gcai2.png"></img>
-                <h2>Guangcai Project</h2>
-
-                <p style="text-align: center;  ">Bridging Knowledge between Craftsman and Learner in Chinese Intangible Cultural Heritage through WebAR
-                </p>
-                <p style="text-align: center;  ">
+               <img height="256" width="256" src="asset/gcai2.png"></img>
+               <h2>Guangcai Project</h2>
+               <p style="text-align: center;  ">Bridging Knowledge between Craftsman and Learner in Chinese Intangible Cultural Heritage through WebAR
+               </p>
+               <p style="text-align: center;  ">
                   通过 WebAR 在中国非物质文化遗产中架起工匠与学习者之间的知识桥梁
                </p>
-                <p style="text-align: center;  "> Peng Tan, Yi Ji, Damian Hills, Tieming Fu </p>
-
-                <img height="48" width="128" src="asset/gcai4.png"></img>
+               <p style="text-align: center;  "> Peng Tan, Yi Ji, Damian Hills, Tieming Fu </p>
+               <img height="48" width="128" src="asset/gcai4.png"></img>
             </section>
-
-
             <!-- -->
             <section>
-                <img height="256" width="256" src="asset/gai1.png"></img>
-
-                <p style="text-align: center;  ">How to bridge knowledge between craftsman and learner in Chinese ICH teaching using WebAR?
-                </p>
-                <p style="text-align: center;  ">
+               <img height="256" width="256" src="asset/gai1.png"></img>
+               <p style="text-align: center;  ">How to bridge knowledge between craftsman and learner in Chinese ICH teaching using WebAR?
+               </p>
+               <p style="text-align: center;  ">
                   如何在使用 WebAR 的中文 ICH 教学中架起工匠和学习者之间的知识？
                </p>
             </section>
             <section>
-                <img height="256" width="256" src="asset/gai1.png"></img>
-                <img height="256" width="256" src="asset/gcai2.png"></img>
-                <p style="text-align: left;  "><span>&#8226;</span> Simulate the embodied experience of the crafter by mirroring the gestures and poses performed by the master during porcelain crafting.
-                </p>
-                <p style="text-align: left;  "><span>&#8226;</span>通过模仿大师在瓷器制作过程中的手势和姿势来模拟工匠的具体体验。
-                </p>
-                <p style="text-align: left;  "><span>&#8226;</span> Enhance knowledge transfer between teacher and students by including tangible artefacts (plate)</p>
-                <p style="text-align: left;  "><span>&#8226;</span> 
-                  通过包括有形的人工制品（板）加强师生之间的知识转移</p>
+               <img height="256" width="256" src="asset/gai1.png"></img>
+               <img height="256" width="256" src="asset/gcai2.png"></img>
+               <p style="text-align: left;  "><span>&#8226;</span> Simulate the embodied experience of the crafter by mirroring the gestures and poses performed by the master during porcelain crafting.
+               </p>
+               <p style="text-align: left;  "><span>&#8226;</span>通过模仿大师在瓷器制作过程中的手势和姿势来模拟工匠的具体体验。
+               </p>
+               <p style="text-align: left;  "><span>&#8226;</span> Enhance knowledge transfer between teacher and students by including tangible artefacts (plate)</p>
+               <p style="text-align: left;  "><span>&#8226;</span> 
+                  通过包括有形的人工制品（板）加强师生之间的知识转移
+               </p>
             </section>
             <section>
-                <video autoplay muted src="asset/guangcai.mp4"></video>
-                <p style="text-align: center;  ">Bridging Knowledge between Craftsman and Learner in Chinese Intangible Cultural Heritage through WebAR </p>
-
+               <video autoplay muted src="asset/guangcai.mp4"></video>
+               <p style="text-align: center;  ">Bridging Knowledge between Craftsman and Learner in Chinese Intangible Cultural Heritage through WebAR </p>
             </section>
-
             <section data-background-iframe="https://gcai.assimilate.net/" data-background-interactive>
-                <div>
-                    <h1></h1>
-                    <p> </p>
-                </div>
+               <div>
+                  <h1></h1>
+                  <p> </p>
+               </div>
             </section>
-
-
-
             <section>
-                <h3>
-                    Thank you (谢谢)
-                </h3>
-                <img height="128" width="128" src="asset/presqrcode.png"></img>
-                <p style="text-align: centre;  "><a href="https://damskii.github.io/GDUT-2022-WebToolsForXR" target="_blank">https://damskii.github.io/GDUT-2022-WebToolsForXR</a></p>
+               <h3>
+                  Thank you (谢谢)
+               </h3>
+               <img height="128" width="128" src="asset/presqrcode.png"></img>
+               <p style="text-align: centre;  "><a href="https://damskii.github.io/GDUT-2022-WebToolsForXR" target="_blank">https://damskii.github.io/GDUT-2022-WebToolsForXR</a></p>
             </section>
-        </div>
-    </div>
-    <script src="dist/reveal.js"></script>
-    <script src="plugin/notes/notes.js"></script>
-    <script src="plugin/markdown/markdown.js"></script>
-    <script src="plugin/highlight/highlight.js"></script>
-    <script>
-        // More info about initialization & config:
-        // - https://revealjs.com/initialization/
-        // - https://revealjs.com/config/
-        Reveal.initialize({
-            hash: true,
-
-            // Learn about plugins: https://revealjs.com/plugins/
-            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
-        });
-
-
-
-        Reveal.addEventListener('slidechanged', function(event) {
-            // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-
-            var currentSlide = event.currentSlide;
-            var iframeValue = currentSlide.getAttribute("data-background-iframe");
-            var setURL = document.getElementById("seturl");
-            var href = setURL.getAttribute("href");
-
-            setURL.textContent = iframeValue;
-            setURL.setAttribute("href", iframeValue);
-
-
-        });
-    </script>
-</body>
-
+         </div>
+      </div>
+      <script src="dist/reveal.js"></script>
+      <script src="plugin/notes/notes.js"></script>
+      <script src="plugin/markdown/markdown.js"></script>
+      <script src="plugin/highlight/highlight.js"></script>
+      <script>
+         // More info about initialization & config:
+         // - https://revealjs.com/initialization/
+         // - https://revealjs.com/config/
+         Reveal.initialize({
+             hash: true,
+         
+             // Learn about plugins: https://revealjs.com/plugins/
+             plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+         });
+         
+         
+         
+         Reveal.addEventListener('slidechanged', function(event) {
+             // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+         
+             var currentSlide = event.currentSlide;
+             var iframeValue = currentSlide.getAttribute("data-background-iframe");
+             var setURL = document.getElementById("seturl");
+             var href = setURL.getAttribute("href");
+         
+             setURL.textContent = iframeValue;
+             setURL.setAttribute("href", iframeValue);
+         
+         
+         });
+      </script>
+   </body>
 </html>
-
-
 <!--template 
-
+   <section data-background-iframe="" data-background-interactive>
+      <div>
+         <h1></h1>
+         <p> </p>
+      </div>
+   </section>   
    
-               <section data-background-iframe="" data-background-interactive>
-                  <div>
-                     <h1></h1>
-                     <p> </p>
-                  </div>
-               </section>   
-
-             
-               <section data-background-iframe="" data-background-interactive>
-                  <h3 style="">
-                     Heading
-                  </h3>
-                  <p style="text-align: left;  " ><span>&#8226;</span> 1</p>
-                  <p style="text-align: left; " ><span>&#8226;</span> 2</p>
-                  <p style="text-align: left; " ><span>&#8226;</span>3</p>
-                  <p style="text-align: left; " ><span>&#8226;</span> 4</p>
-               </section>
-
-              
-               <section >
-                  <h3 >
-                     heading 
-                  </h3>
-                  <img width="25%" height="25%" src = "asset/ipadvscb.png"></img>
-                  <p style="text-align: left;  " ><span>&#8226;</span>1 </p>
-                  <p style="text-align: left;  " ><span>&#8226;</span>2 </p>
-                  <p style="text-align: left;  " ><span>&#8226;</span>3 </p>
-                  <p style="text-align: left;  " ><span>&#8226;</span>4</p>
-                  </p>
-               </section>
-             
-               
-            -->
+   
+   <section data-background-iframe="" data-background-interactive>
+      <h3 style="">
+         Heading
+      </h3>
+      <p style="text-align: left;  " ><span>&#8226;</span> 1</p>
+      <p style="text-align: left; " ><span>&#8226;</span> 2</p>
+      <p style="text-align: left; " ><span>&#8226;</span>3</p>
+      <p style="text-align: left; " ><span>&#8226;</span> 4</p>
+   </section>
+   
+   
+   <section >
+      <h3 >
+         heading 
+      </h3>
+      <img width="25%" height="25%" src = "asset/ipadvscb.png"></img>
+      <p style="text-align: left;  " ><span>&#8226;</span>1 </p>
+      <p style="text-align: left;  " ><span>&#8226;</span>2 </p>
+      <p style="text-align: left;  " ><span>&#8226;</span>3 </p>
+      <p style="text-align: left;  " ><span>&#8226;</span>4</p>
+      </p>
+   </section>
+   
+   
+   -->
